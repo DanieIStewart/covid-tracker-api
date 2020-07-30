@@ -26,6 +26,9 @@ body {
     overflow: hidden;
 }
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
 .chart-container {
     margin-left: 0;
     margin-right: 0;
